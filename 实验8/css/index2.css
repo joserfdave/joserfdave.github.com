@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+ .m-main2{
+	width:600px;
+	height:400px;
+}
+.m-hd{
+	width:50%;
+	height:15%;
+}
+.m-next{
+	width:30%;
+	height:100%;
+	float:left;
+	border:2px solid grey;
+	border-bottom-width: 0px;
+	cursor:pointer;
+}
+.m-next:nth-child(2),
+.m-next:nth-child(3){
+	border-left-width: 0;
+}
+.m-next:hover{
+	background-color: grey;
+}
+
+.m-end{
+	width:100%;
+	height:60%;
+	margin-top:2px;
+	border:2px solid grey;
+	text-align: center;
+}
+.m-end>span{
+	font-size:10em;
+}

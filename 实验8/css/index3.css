@@ -1,0 +1,53 @@
+@charset "UTF-8";
+	
+
+ .m-box3{
+	width:800px;
+	height:auto;
+	border:2px solid grey;
+	margin:0 auto;
+	margin-bottom:20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	float:left;
+}
+.m-data{
+	width:80%;
+	height:40px;
+	margin:10px 0 10px 0;
+	border:2px solid grey;
+}
+.m-next2{
+	width:100px;
+	height:50px;
+	background-color: green;
+	margin:10px 0px 10px 10px;
+	color:white;
+	align-self: flex-end;
+	cursor:pointer;
+	text-align: center;
+	font-size: 2em;
+}
+.m-next2:active{
+	opacity: 80%;
+}
+.m-data-1{
+	width:15%;
+	height:100%;
+	float:left;
+	border-right:2px solid grey;
+	text-align: center;
+	font-size: 2em;
+	color: grey;
+}
+.m-data-2{
+	width:20%;
+	height:100%;
+	float:right;
+	border-left:2px solid grey;
+	text-align: center;
+	font-size: 1.8em;
+	color: grey;
+}
